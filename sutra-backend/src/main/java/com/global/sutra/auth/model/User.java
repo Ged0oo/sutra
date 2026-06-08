@@ -22,6 +22,9 @@ public class User {
 	private String id;
 	private Role role;
 	
+	private String firstName;
+	private String lastName;
+	
 	private String email;
 	private String passwordHash;
 	private String refreshTokenHash;
